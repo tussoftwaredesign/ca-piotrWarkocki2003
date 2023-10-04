@@ -15,7 +15,7 @@ C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60617
+61823
 Successfully changed project path to: C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12668] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 640328435 [EditorId] 640328435 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16028] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 1311498901 [EditorId] 1311498901 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12668] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 640328435 [EditorId] 640328435 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16028] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 1311498901 [EditorId] 1311498901 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 30.11 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.59 ms.
+Refreshing native plugins compatible for Editor in 22.99 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008921 seconds.
-- Loaded All Assemblies, in  0.385 seconds
+Registered in 0.009332 seconds.
+- Loaded All Assemblies, in  0.414 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.294 seconds
-Domain Reload Profiling: 677ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 695ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (44ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (142ms)
-		LoadAssemblies (121ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (109ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (140ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (125ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (159ms)
+				TypeCache.ScanAssembly (143ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (295ms)
+	FinalizeReload (284ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (159ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 677ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.780 seconds
-Refreshing native plugins compatible for Editor in 15.77 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.931 seconds
+Refreshing native plugins compatible for Editor in 20.51 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -132,86 +132,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1654ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.919 seconds
+Domain Reload Profiling: 1839ms
+	BeginReloadAssembly (170ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (48ms)
-	LoadAllAssembliesAndSetupDomain (509ms)
-		LoadAssemblies (338ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (426ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (272ms)
-			TypeCache.Refresh (232ms)
-				TypeCache.ScanAssembly (208ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (880ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (231ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (919ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (692ms)
+		SetupLoadedEditorAssemblies (693ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (468ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (448ms)
 			ProcessInitializeOnLoadMethodAttributes (113ms)
 			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 13.33 ms, found 10 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 14.51 ms, found 10 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 6158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 108 unused Assets / (367.7 KB). Loaded Objects now: 6619.
-Memory consumption went from 225.4 MB to 225.0 MB.
-Total: 4.369500 ms (FindLiveObjects: 0.492900 ms CreateObjectMapping: 0.626400 ms MarkObjects: 3.032600 ms  DeleteObjects: 0.216500 ms)
+Unloading 6159 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 108 unused Assets / (367.1 KB). Loaded Objects now: 6623.
+Memory consumption went from 226.8 MB to 226.4 MB.
+Total: 4.381500 ms (FindLiveObjects: 0.595600 ms CreateObjectMapping: 0.579900 ms MarkObjects: 2.988300 ms  DeleteObjects: 0.216700 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2337.173075 seconds.
-  path: Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_All.fbx
-  artifactKey: Guid(215119b6893ae7d4b890c9acaa834b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/RoomTraditional_Models/Room_Traditional_All.fbx using Guid(215119b6893ae7d4b890c9acaa834b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f63de8a50e93dd927dcdb665a3b7bc0') in 0.421622 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 40
-========================================================================
-Received Import Request.
-  Time since last request: 8.355922 seconds.
-  path: Assets/ADI/Voxel Office Props/Materials/modelLitRed.mat
-  artifactKey: Guid(1d6d0a96761d42e47bd466b7f94e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ADI/Voxel Office Props/Materials/modelLitRed.mat using Guid(1d6d0a96761d42e47bd466b7f94e2ef6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72dc3905b5d49d0cb38fa5e21a348fb2') in 0.050899 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 12.77 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2 unused Assets / (290.7 KB). Loaded Objects now: 6749.
-Memory consumption went from 108.9 MB to 108.7 MB.
-Total: 5.134600 ms (FindLiveObjects: 0.499400 ms CreateObjectMapping: 0.431300 ms MarkObjects: 4.122300 ms  DeleteObjects: 0.064500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -227,175 +189,102 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 632.413942 seconds.
-  path: Assets/Settings/UniversalRenderPipelineAsset.asset
-  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbe93a1538f18dcfc2d4b8dd45013bf') in 0.006806 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(e634585d5c4544dd297acaee93dc2beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c5810c8350dff1d30bd9202d1eb16c') in 0.000915 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 9.973518 seconds.
-  path: Assets/Furniture/Prefabs/3Seat2.prefab
-  artifactKey: Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/3Seat2.prefab using Guid(bd72486aa780d7c488fce4c5de88266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f5055caabd3e88eea513cbfa2ab51f') in 0.030063 seconds
+  Time since last request: 11508.428713 seconds.
+  path: Assets/Stairs Pack/Wood Stairs.fbx
+  artifactKey: Guid(5d19a846b47ebc347af3c33f673a167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stairs Pack/Wood Stairs.fbx using Guid(5d19a846b47ebc347af3c33f673a167d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0be959186bb834d09dcda010628d49') in 0.360796 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.091456 seconds.
-  path: Assets/Furniture/Prefabs/3Seat3.prefab
-  artifactKey: Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/3Seat3.prefab using Guid(d9e6213ffc5943b4db8396985aa3f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616a7a1fa48df3140a03f156a3ff204e') in 0.020148 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Stairs Pack/Concrete Stairs 2.fbx
+  artifactKey: Guid(cbb6e400472736d48978e48d57da6316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stairs Pack/Concrete Stairs 2.fbx using Guid(cbb6e400472736d48978e48d57da6316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4272b3857aa0e3f8736ca544718a623c') in 0.023954 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 13
 ========================================================================
 Received Import Request.
-  Time since last request: 0.108178 seconds.
-  path: Assets/Furniture/Prefabs/chair.prefab
-  artifactKey: Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/chair.prefab using Guid(a42ad6a4668ecfb44a1f036838e43f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d5f41e43da53246a543b4d6ed6e187') in 0.019051 seconds
+  Time since last request: 143.945084 seconds.
+  path: Assets/_Course Library/Particles/Particle_Water.prefab
+  artifactKey: Guid(ecf7736a659284e99804c6bde923b1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/Particles/Particle_Water.prefab using Guid(ecf7736a659284e99804c6bde923b1c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3bbe3ab04295226f62027bd69c0163') in 0.014909 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.105628 seconds.
-  path: Assets/Furniture/Prefabs/DoubleSeat.prefab
-  artifactKey: Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/DoubleSeat.prefab using Guid(2c59b54db7aeb3d438ea1c0bf9694519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9299d6e813bdaddbf06eda847e0bc5a6') in 0.026945 seconds
+  Time since last request: 0.122800 seconds.
+  path: Assets/MinimalistBedroom/Models/Exterior/Walls_01.fbx
+  artifactKey: Guid(786e4fc6b7b54924f802bcb188c5c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Models/Exterior/Walls_01.fbx using Guid(786e4fc6b7b54924f802bcb188c5c68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27aba4e8e9a493068f867f77775bdee') in 0.018236 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Furniture/Prefabs/SmallCloset.prefab
-  artifactKey: Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/SmallCloset.prefab using Guid(0811362ae53573c47be253aac1dbdd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c00c6b2e49b197c592ea9de255b995f') in 0.030697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Furniture/Prefabs/MetalTable.prefab
-  artifactKey: Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/MetalTable.prefab using Guid(204da6aadc13e164eac745605815a273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6f02ce86efeeb8588dd47cc742c6a26') in 0.019942 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Furniture/Prefabs/RoundTable.prefab
-  artifactKey: Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/RoundTable.prefab using Guid(6f43b2566a8dcad4aa8e75125eeda38e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '023b1d83233dfa4d981da395cbe765ea') in 0.022396 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Furniture/Prefabs/MirrorComode.prefab
-  artifactKey: Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/MirrorComode.prefab using Guid(f1ffc5e47031c224a92e5b203193d60b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05cac345b043ef6aafee2eb095473922') in 0.023054 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture/Prefabs/MirrorComode2.prefab
-  artifactKey: Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/MirrorComode2.prefab using Guid(cf75d98c5ad60534184b2a6377117ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c28445a72c5c5620802c3f4d1ccffd') in 0.022610 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Furniture/Prefabs/BigCloset.prefab
-  artifactKey: Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Prefabs/BigCloset.prefab using Guid(9d4494b8b100519479f9699c5a7390a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22535966a70b8435981ed59c34995c12') in 0.027464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
-========================================================================
-Received Import Request.
-  Time since last request: 17.180232 seconds.
-  path: Assets/Furniture/Source/Textures/2Seat_Normal.tga
-  artifactKey: Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/2Seat_Normal.tga using Guid(3fe011b5495c9f84b80c1a03685efe16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0fdb16ec5d5b2c6fdeaaa8a7fc82dc') in 0.050628 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat_BaseColor.tga
-  artifactKey: Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat_BaseColor.tga using Guid(b26ed971f51d79d4f85cb49b41444bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0ed5f941d664e8aedeb68e48f66f52') in 0.018621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Furniture/Source/Textures/couch_BaseColor.tga
-  artifactKey: Guid(bb72810a10bdd4845b4c38addff488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/couch_BaseColor.tga using Guid(bb72810a10bdd4845b4c38addff488d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455e38ce15ce110f18112cf0eeb4543d') in 0.024760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Furniture/Source/Textures/closet_Normal.tga
-  artifactKey: Guid(2d2dac88e37b65f4fae79adc3d8ce43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet_Normal.tga using Guid(2d2dac88e37b65f4fae79adc3d8ce43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8efb03355245d4c4f65f0e073ac41e7') in 0.021663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Furniture/Source/Textures/closet3_mask.tga
-  artifactKey: Guid(0a92627edb3f2114c857823f98e99c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/closet3_mask.tga using Guid(0a92627edb3f2114c857823f98e99c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2caebedf455c6ae5ea4989875425e2f5') in 0.019739 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat_mask.tga
-  artifactKey: Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat_mask.tga using Guid(10d652b3ce4d695489cefffe82691c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96efce6182529f1c743bf1ec02e72e37') in 0.020694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga
-  artifactKey: Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3SeatDirt_Normal.tga using Guid(8379405848fffb5458b0fa2a0b245cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c289068bece59fc9f49a890ea6f838e7') in 0.020903 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga
-  artifactKey: Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2_BaseColor.tga using Guid(a18aa7b38d8427e4093771dfcdac7c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534a5dc2e2ad644e151eb0cd45502f8f') in 0.014786 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Furniture/Source/Textures/3Seat2_mask.tga
-  artifactKey: Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Furniture/Source/Textures/3Seat2_mask.tga using Guid(bfa88983bd139804bb61a5d61e1f070b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a49e620b822f1d67b197f91387a9bc') in 0.019603 seconds
+  path: Assets/Challenges/01_Architecture/Prefabs/Wall.prefab
+  artifactKey: Guid(b425eb33b57f29f449ca9b014c3bb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Challenges/01_Architecture/Prefabs/Wall.prefab using Guid(b425eb33b57f29f449ca9b014c3bb6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc7cdddcd15369d5629f5f032a4704d1') in 0.011383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Oculus/Spatializer/scenes/sounds/water.mp3
+  artifactKey: Guid(a05d082cd207b4b12a47c089be8b7a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/Spatializer/scenes/sounds/water.mp3 using Guid(a05d082cd207b4b12a47c089be8b7a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b4c5a9160016395c6bb1344009b3ad') in 0.033350 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 38.542642 seconds.
+  path: Assets/MinimalistBedroom/Models/Interior/RoundBox_b_01.fbx
+  artifactKey: Guid(6061819b0d4e6a44a9e7103a631c5d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Models/Interior/RoundBox_b_01.fbx using Guid(6061819b0d4e6a44a9e7103a631c5d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4546c2bde80e0ff9c252484588de48b3') in 0.013009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.126844 seconds.
+  path: Assets/MinimalistBedroom/Models/Interior/Sculpture_a_01.fbx
+  artifactKey: Guid(da1176389899d1a469eb2928c03bdda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Models/Interior/Sculpture_a_01.fbx using Guid(da1176389899d1a469eb2928c03bdda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec11892feae030b817370ab41f82a74') in 0.020230 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.113643 seconds.
+  path: Assets/MinimalistBedroom/Models/Interior/Sculpture_d_01.fbx
+  artifactKey: Guid(754391049f619ea41980c06aaf7a9d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Models/Interior/Sculpture_d_01.fbx using Guid(754391049f619ea41980c06aaf7a9d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b0b057107af15c027dd252c4de9b1c6') in 0.013471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Furniture/Source/Mesh/RoundTable.fbx
+  artifactKey: Guid(c4bf5ec91ea67e94fb25bfe2b9808275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Mesh/RoundTable.fbx using Guid(c4bf5ec91ea67e94fb25bfe2b9808275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a487020e6070520ddf5669731c0a530') in 0.058239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/MinimalistBedroom/Models/Interior/ShirtStackTwo_01.fbx
+  artifactKey: Guid(d77c80db5eeeb2e4a92efe944f99e7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Models/Interior/ShirtStackTwo_01.fbx using Guid(d77c80db5eeeb2e4a92efe944f99e7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be54de863a7532499e9bc95b68ad87da') in 0.016113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 5.606045 seconds.
+  path: Assets/Furniture/Source/Materials/komm2_BaseColor.mat
+  artifactKey: Guid(331e08cdd401b9445adbabe2ad6b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Source/Materials/komm2_BaseColor.mat using Guid(331e08cdd401b9445adbabe2ad6b1da7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6c3f6b0f2eb6407854cfe24e758140') in 0.025236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
