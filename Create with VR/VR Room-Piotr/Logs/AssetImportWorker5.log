@@ -15,7 +15,7 @@ C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-60025
+50169
 Successfully changed project path to: C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9724] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 2487033488 [EditorId] 2487033488 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [5436] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 413832721 [EditorId] 413832721 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [9724] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 2487033488 [EditorId] 2487033488 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5436] Host "[IP] 172.17.122.121 [Port] 0 [Flags] 2 [Guid] 413832721 [EditorId] 413832721 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 600.64 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.68 ms.
+Refreshing native plugins compatible for Editor in 19.14 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.46 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/ca-piotrWarkocki2003/Create with VR/VR Room-Piotr/Assets
@@ -74,40 +74,40 @@ Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,susp
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006759 seconds.
-- Loaded All Assemblies, in  0.418 seconds
+Registered in 0.006394 seconds.
+- Loaded All Assemblies, in  0.379 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.282 seconds
-Domain Reload Profiling: 698ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 710ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (181ms)
-		LoadAssemblies (108ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (97ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (179ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (162ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (151ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (282ms)
+	FinalizeReload (332ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (217ms)
+		SetupLoadedEditorAssemblies (243ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (144ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (163ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 698ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.772 seconds
-Refreshing native plugins compatible for Editor in 14.88 ms, found 10 plugins.
+- Loaded All Assemblies, in  0.771 seconds
+Refreshing native plugins compatible for Editor in 15.34 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -132,47 +132,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.835 seconds
-Domain Reload Profiling: 1603ms
-	BeginReloadAssembly (154ms)
+- Finished resetting the current domain, in  0.845 seconds
+Domain Reload Profiling: 1612ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (519ms)
-		LoadAssemblies (334ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (497ms)
+		LoadAssemblies (321ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (267ms)
-			TypeCache.Refresh (216ms)
-				TypeCache.ScanAssembly (192ms)
-			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (18ms)
-	FinalizeReload (836ms)
+		AnalyzeDomain (270ms)
+			TypeCache.Refresh (213ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (41ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (845ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (638ms)
+		SetupLoadedEditorAssemblies (630ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (117ms)
-			AfterProcessingInitializeOnLoad (9ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 21.47 ms, found 10 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 14.85 ms, found 10 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 6158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 108 unused Assets / (366.9 KB). Loaded Objects now: 6618.
-Memory consumption went from 224.6 MB to 224.3 MB.
-Total: 5.673800 ms (FindLiveObjects: 0.609100 ms CreateObjectMapping: 0.712000 ms MarkObjects: 4.080700 ms  DeleteObjects: 0.271000 ms)
+Unloading 108 unused Assets / (367.8 KB). Loaded Objects now: 6619.
+Memory consumption went from 225.0 MB to 224.7 MB.
+Total: 3.797700 ms (FindLiveObjects: 0.430900 ms CreateObjectMapping: 0.609600 ms MarkObjects: 2.555200 ms  DeleteObjects: 0.201300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -189,108 +189,68 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 15874.592407 seconds.
-  path: Assets/_Course Library/_Prefabs/Objects/Books/Book_B_BrownRed.prefab
-  artifactKey: Guid(7ba0db8bf8646c74a8b203a0409e51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/_Prefabs/Objects/Books/Book_B_BrownRed.prefab using Guid(7ba0db8bf8646c74a8b203a0409e51ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634f78d338a8ef80082e95ce6797bc68') in 0.383845 seconds
+  Time since last request: 20683.970154 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab
+  artifactKey: Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Modern_Brown.prefab using Guid(5e80c6b19a85a0d46b1ebd9f0eb64b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40d8bd48ac2f60f5e985f5a6a24d9986') in 0.282045 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Challenges/01_Architecture/Materials/ClipBoard1.mat
-  artifactKey: Guid(7533a8a46b3494648a1ca47af86ed1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/01_Architecture/Materials/ClipBoard1.mat using Guid(7533a8a46b3494648a1ca47af86ed1da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c7036b0d9aedb023aebdf182b5fba4') in 0.030547 seconds
+  Time since last request: 0.076622 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab
+  artifactKey: Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Traditional_Light.prefab using Guid(b4d538715c7469342811939a08b911d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd31e6a04d79e0689883218f1d683ae73') in 0.015385 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 28
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx
-  artifactKey: Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Cabinet_Modern_B.fbx using Guid(332ad90e44467c44a81dea0f29d07765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28641e47d33956b62b8783ba1948a7f3') in 0.103933 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gold.prefab
+  artifactKey: Guid(9fd62c09090ff5448be42411d830128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gold.prefab using Guid(9fd62c09090ff5448be42411d830128d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ec6be4c7c3b133a4273da7b5bd1036') in 0.014077 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
+Number of asset objects unloaded after import = 37
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx
-  artifactKey: Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Speaker_Boombox.fbx using Guid(b0befbd5b40c17d4c90a8db749239bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0737a17453352af63500d6a93dddef2c') in 0.029862 seconds
+  Time since last request: 0.000016 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab
+  artifactKey: Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Rustic_Purple.prefab using Guid(b70d9d61de2878e4aaba4d25b4a4822d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58d9242971412430fa1126c1e96f3e0') in 0.011291 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
+Number of asset objects unloaded after import = 34
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Challenges/01_Architecture/Materials/ClipBoardBack.mat
-  artifactKey: Guid(c9f96e450492745be8398632c54fe9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/01_Architecture/Materials/ClipBoardBack.mat using Guid(c9f96e450492745be8398632c54fe9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2155cd55189ce3d0e808da0d44b22c') in 0.008356 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab
+  artifactKey: Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Chair_Rustic_LightBrown.prefab using Guid(3e5ff502dd0484b43809e79d17ebc3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784727aa43b6512fd4c280e7e74a4efc') in 0.012520 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_Bottle_B.fbx
-  artifactKey: Guid(560afe0b99a30a44994e43c073219897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_Bottle_B.fbx using Guid(560afe0b99a30a44994e43c073219897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3a549c2944b166f769330e6d49c9d2') in 0.031129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/_Course Library/Source Files/Models/Container_Bottle.fbx
-  artifactKey: Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Container_Bottle.fbx using Guid(a35cbf325c0587f4e81a3f266986c6f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ec783384f6fc25a3ccac860c3a5046') in 0.033178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/_Course Library/Source Files/Models/Object_Notebook_A.fbx
-  artifactKey: Guid(edf87487be9b7d14dab16fae808247b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Object_Notebook_A.fbx using Guid(edf87487be9b7d14dab16fae808247b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a2cffef65bd10a3a2b9c74be3d4b48') in 0.036405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 37
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/_Course Library/Source Files/Models/Object_Notebook_B.fbx
-  artifactKey: Guid(f9eadf25bce12c649be0f96af42633ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Object_Notebook_B.fbx using Guid(f9eadf25bce12c649be0f96af42633ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b5e658cac81232b988b4bec619461a') in 0.036161 seconds
+  path: Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gray.prefab
+  artifactKey: Guid(457f2848d5450fe40b602740b823eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Seating/Couch_Traditional_Gray.prefab using Guid(457f2848d5450fe40b602740b823eeec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8adeeb98931d4d1d95e60c0a995a3920') in 0.013366 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 37
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Challenges/01_Architecture/Prefabs/Clipboard.prefab
-  artifactKey: Guid(ca65cb99a1762b540ab55886c32830e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Challenges/01_Architecture/Prefabs/Clipboard.prefab using Guid(ca65cb99a1762b540ab55886c32830e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e35f4001dc096c67d504d892c20b07b') in 0.034301 seconds
+  Time since last request: 8.637573 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab
+  artifactKey: Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Dining_Modern_Light.prefab using Guid(578b05d48f135824788f29020766e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8cc7e7a9c81a92ec59810ed1ce912a') in 0.014463 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 39
+Number of asset objects unloaded after import = 26
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/_Course Library/Source Files/Models/Dimmer_1.fbx
-  artifactKey: Guid(474d742cc0076d3428ba1caf5382a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Dimmer_1.fbx using Guid(474d742cc0076d3428ba1caf5382a962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c02ae28c73f99e9958e5717b18ff30') in 0.035544 seconds
+  Time since last request: 0.000023 seconds.
+  path: Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Brown.prefab
+  artifactKey: Guid(b5dd15abea9c3644abf1d3bd1a7f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Tables/Table_Side_Modern_Brown.prefab using Guid(b5dd15abea9c3644abf1d3bd1a7f646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f2aded5a04d713ff671f0cb5d7a03e4') in 0.012126 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 17
-========================================================================
-Received Import Request.
-  Time since last request: 0.290289 seconds.
-  path: Assets/_Course Library/Source Files/Models/Object_Book_A_3.fbx
-  artifactKey: Guid(3e4463212d2a65946b952bb19ffd6030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Object_Book_A_3.fbx using Guid(3e4463212d2a65946b952bb19ffd6030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb15e09250fac67c63181cb7e2e7941') in 0.024125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/_Course Library/Source Files/Models/Object_Book_B_2.fbx
-  artifactKey: Guid(245d8e23cc030d944b38cf23dff80838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Course Library/Source Files/Models/Object_Book_B_2.fbx using Guid(245d8e23cc030d944b38cf23dff80838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d3c0936eb2dbec26434dc10f5e526e') in 0.024460 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 28
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
