@@ -1,0 +1,513 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'en' Physical Memory: 32477 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+C:/Users/A00297278/Desktop/ca-piotrWarkocki2003/GameForJohn
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+55488
+Successfully changed project path to: C:/Users/A00297278/Desktop/ca-piotrWarkocki2003/GameForJohn
+C:/Users/A00297278/Desktop/ca-piotrWarkocki2003/GameForJohn
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19332] Host "[IP] 192.168.23.167 [Port] 0 [Flags] 2 [Guid] 3702277962 [EditorId] 3702277962 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19332] Host "[IP] 192.168.23.167 [Port] 0 [Flags] 2 [Guid] 3702277962 [EditorId] 3702277962 [Version] 1048832 [Id] WindowsEditor(7,AT-X207-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
+Refreshing native plugins compatible for Editor in 17.88 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.54 ms.
+Initialize engine version: 2022.3.9f1 (ea401c316338)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/A00297278/Desktop/ca-piotrWarkocki2003/GameForJohn/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 (ID=0x2216)
+    Vendor:   NVIDIA
+    VRAM:     10067 MB
+    Driver:   31.0.15.3619
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56960
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005189 seconds.
+- Loaded All Assemblies, in  0.317 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.237 seconds
+Domain Reload Profiling: 553ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (127ms)
+		LoadAssemblies (96ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (124ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (237ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (178ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (117ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 13.25 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <787acc3c9a4c471ba7d971300105af24>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <787acc3c9a4c471ba7d971300105af24>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <2e279d988b9d4542841de511fbfdf8c2>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.632 seconds
+Domain Reload Profiling: 1274ms
+	BeginReloadAssembly (140ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (283ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (632ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (482ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (349ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 14.71 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 4675 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 76 unused Assets / (75.2 KB). Loaded Objects now: 5166.
+Memory consumption went from 157.9 MB to 157.8 MB.
+Total: 4.254800 ms (FindLiveObjects: 0.462300 ms CreateObjectMapping: 0.338100 ms MarkObjects: 3.296200 ms  DeleteObjects: 0.157000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71536.649969 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects
+  artifactKey: Guid(c90000e021e654cc7b2d2ee177e3244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects using Guid(c90000e021e654cc7b2d2ee177e3244c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64fff6502ef20e60f2dc4c6696c001a3') in 0.002582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.038710 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Notebooks
+  artifactKey: Guid(7db05cdce5a00465195354d61b71bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Notebooks using Guid(7db05cdce5a00465195354d61b71bbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6fabacb8e3ee797cdab39cb9bfb211') in 0.001382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.123455 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Notebooks/Notebook_Brown.prefab
+  artifactKey: Guid(0598faac6c7f62f4f92b2f771f20ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Notebooks/Notebook_Brown.prefab using Guid(0598faac6c7f62f4f92b2f771f20ca2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800aec4c4bbdbb63f06cf3aa41225574') in 0.122750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.786818 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Miscellaneous
+  artifactKey: Guid(ce339bb669f5641919b0aa8ee552e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Miscellaneous using Guid(ce339bb669f5641919b0aa8ee552e139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020ca06f4012cdb746f0b7b70b37da20') in 0.001033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045494 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Miscellaneous/Lighter_Candle_Blue.prefab
+  artifactKey: Guid(b260445a5b0da4bbba6645bba66a124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Miscellaneous/Lighter_Candle_Blue.prefab using Guid(b260445a5b0da4bbba6645bba66a124f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b877dcb8ad425b4fae2e3209f2d88b9d') in 0.021837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 4.382583 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Containers
+  artifactKey: Guid(89f5870f666ba464b929436f58abc4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Containers using Guid(89f5870f666ba464b929436f58abc4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2516731949f2ee73973a38a5bb7b13') in 0.001071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055206 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Containers/Container_Bottle_Blue.prefab
+  artifactKey: Guid(dc9d604fc9e605b4287415291cda0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Containers/Container_Bottle_Blue.prefab using Guid(dc9d604fc9e605b4287415291cda0eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b47a89ab44d8878d1675c41bc18dca') in 0.027130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_Course Library/_Prefabs/Objects/Containers/Container_WateringCan_Green.prefab
+  artifactKey: Guid(7b3f01ef57e439d4ba789378e3bb2b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Course Library/_Prefabs/Objects/Containers/Container_WateringCan_Green.prefab using Guid(7b3f01ef57e439d4ba789378e3bb2b97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6193f09a26ff88e134fbce6aaa0cddea') in 0.036971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 325.171497 seconds.
+  path: Assets/Modern Minimalist Sofa/SofaModern_Fabric.prefab
+  artifactKey: Guid(90ddae156612a6c4987d61b558651019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Minimalist Sofa/SofaModern_Fabric.prefab using Guid(90ddae156612a6c4987d61b558651019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d4101e242d3eaa9f9d0da8fd9936c6') in 0.166980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 6.462644 seconds.
+  path: Assets/Modern Minimalist Sofa/Leather/Sofa_ModernBlueLoPoly_DefaultMaterial_BaseColor.png
+  artifactKey: Guid(33d5355ea79f0f4409f3a94518105a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Minimalist Sofa/Leather/Sofa_ModernBlueLoPoly_DefaultMaterial_BaseColor.png using Guid(33d5355ea79f0f4409f3a94518105a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e2a6b9e577ac15ab4be30ed09ca17e') in 0.027247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Modern Minimalist Sofa/Leather/SofaModern_Leather.fbx
+  artifactKey: Guid(37865760bdeebd9429a9f3b0fe44870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Minimalist Sofa/Leather/SofaModern_Leather.fbx using Guid(37865760bdeebd9429a9f3b0fe44870a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249f0f459b49953b9e7f0de7e79faa8e') in 0.038691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Modern Minimalist Sofa/Leather/Sofa_ModernBlueLoPoly_DefaultMaterial_Roughness.png
+  artifactKey: Guid(23e45b36608b8a94c8c13dc9ddd813dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Modern Minimalist Sofa/Leather/Sofa_ModernBlueLoPoly_DefaultMaterial_Roughness.png using Guid(23e45b36608b8a94c8c13dc9ddd813dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0bfd72c53cf832aa5288dfc3b83b86c') in 0.018291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 42.608704 seconds.
+  path: Assets/Furniture_FREE/Prefabs
+  artifactKey: Guid(fc573549ba0374d4b965ffdece19e96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Prefabs using Guid(fc573549ba0374d4b965ffdece19e96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc180a7d12c047b5a950f86c06057d26') in 0.000608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.951515 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen
+  artifactKey: Guid(644d6ffff67614a939af6d6d07fd6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen using Guid(644d6ffff67614a939af6d6d07fd6e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd080ed167b54b2dc8501d9a93be0745') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.909624 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Wood/Wood_Oak.mat
+  artifactKey: Guid(e81383f89c5d7844a80b201cee133c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Wood/Wood_Oak.mat using Guid(e81383f89c5d7844a80b201cee133c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8680b22b827c83653f1ba0dad0b88fc5') in 0.034598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Wood/Wood_Smooth.mat
+  artifactKey: Guid(c079057dbd88e2e489c19e6a3e3f260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Wood/Wood_Smooth.mat using Guid(c079057dbd88e2e489c19e6a3e3f260e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b4a13aaee0d072e9cdf721b059ac6d') in 0.014375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.586452 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Wood/PSD/Wood_Smooth.psd
+  artifactKey: Guid(e48ae5224922ece48bbd573b0f5ae261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Wood/PSD/Wood_Smooth.psd using Guid(e48ae5224922ece48bbd573b0f5ae261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cc50b27cd5d071f6c2712a3f9e5e7e') in 0.018387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.001412 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Wood/PSD/Wood_Oak.psd
+  artifactKey: Guid(71d6f6a42d0fd1848b3e472b1a82fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Wood/PSD/Wood_Oak.psd using Guid(71d6f6a42d0fd1848b3e472b1a82fe4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef60b588fa154cc755ca27be0fc8a570') in 0.017288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 218.066688 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark001.mat
+  artifactKey: Guid(17f1fc47025bfef4791d67717a485c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark001.mat using Guid(17f1fc47025bfef4791d67717a485c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6e8472b983fd2de4d6eb8bf04d9c32') in 0.019007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004976 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark005.mat
+  artifactKey: Guid(8c7647522d813cc47a78b7fa3301cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark005.mat using Guid(8c7647522d813cc47a78b7fa3301cc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4e770906dc2a9f574a1eae2c15083f2') in 0.021366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium002.mat
+  artifactKey: Guid(a699471d17aba274985b421c19a94252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium002.mat using Guid(a699471d17aba274985b421c19a94252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244c21358a6b3860303a1c88094aa620') in 0.017989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light001.mat
+  artifactKey: Guid(d40cfd470452d7f41893f4ba87a09383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light001.mat using Guid(d40cfd470452d7f41893f4ba87a09383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fed4f6cbd1b1ef625f60f5894977f7') in 0.014746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium012.mat
+  artifactKey: Guid(159611dc20d09c24bbe4f892c0c88334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium012.mat using Guid(159611dc20d09c24bbe4f892c0c88334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40be7a9ef9e8175d7f7182f300541f5') in 0.016014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium001.mat
+  artifactKey: Guid(880d67f877015b54c86b1576e1fcbdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium001.mat using Guid(880d67f877015b54c86b1576e1fcbdc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415b6052f8330ab22300a3ef5ed059c1') in 0.019816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark009.mat
+  artifactKey: Guid(e5f11a67d52b40a46b5bc725a4a7363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark009.mat using Guid(e5f11a67d52b40a46b5bc725a4a7363a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35bde1b746b6d2c7e277f7fad930827') in 0.016077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light004.mat
+  artifactKey: Guid(265cb201a9f60b341b5e5de13f843511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Light004.mat using Guid(265cb201a9f60b341b5e5de13f843511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52614c76848ac577164124ffccc57daa') in 0.016723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium005.mat
+  artifactKey: Guid(6d9d55628b244684facf5ec280711795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium005.mat using Guid(6d9d55628b244684facf5ec280711795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4873694cf197ac1df07a2d99aadf6f23') in 0.016690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark006.mat
+  artifactKey: Guid(3d50f1b53232a4441a6044eaf2351629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark006.mat using Guid(3d50f1b53232a4441a6044eaf2351629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53fb79f0f70f0c8040373dc98ec8b747') in 0.016665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark004.mat
+  artifactKey: Guid(a7156daf02d7a43478622c8150b0ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Dark004.mat using Guid(a7156daf02d7a43478622c8150b0ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc78c1171428a9281528569398a98924') in 0.014836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium013.mat
+  artifactKey: Guid(221beece3f6f09e469d3978b77e673ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium013.mat using Guid(221beece3f6f09e469d3978b77e673ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954d45b8c4f3d43c41bc891479bae6c3') in 0.018757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium010.mat
+  artifactKey: Guid(b820a282857ba2149893400049d3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Granite/Countertop_Granite_Medium010.mat using Guid(b820a282857ba2149893400049d3d706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f01995db7cda05ab4f97aae4965723f') in 0.023448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.329259 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Granite/PSD/Countertop_Granite_Dark009.psd
+  artifactKey: Guid(334ef54db72c98f45bd08a99861c0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Textures/Seamless/Granite/PSD/Countertop_Granite_Dark009.psd using Guid(334ef54db72c98f45bd08a99861c0378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ae9f8baad6de0310d7d0100cfac50e') in 0.020303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 146.093032 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Light002.mat
+  artifactKey: Guid(9c3f978ea0251da42a182ea4442916a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Light002.mat using Guid(9c3f978ea0251da42a182ea4442916a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48b87fdc70c48109658f3055405f096') in 0.018453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium002.mat
+  artifactKey: Guid(be6f831a54d3c994d85b5ac840597286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium002.mat using Guid(be6f831a54d3c994d85b5ac840597286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1a0d3f6a65c89d713c8c2a0a03f6d8') in 0.015971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium001.mat
+  artifactKey: Guid(c347a4c7b9e746b4cbbe87bd8b22fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Formica/Countertop_Formica_Medium001.mat using Guid(c347a4c7b9e746b4cbbe87bd8b22fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a2c7eed24774db0530eb83154fb5c4') in 0.018491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.641640 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal005.mat
+  artifactKey: Guid(5e424ec2e46a0c94590db4894e1de642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal005.mat using Guid(5e424ec2e46a0c94590db4894e1de642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5c1e30f2f8398cb8ecb14f4d9a19de') in 0.016586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal_Scratched003.mat
+  artifactKey: Guid(f0cb5e039f11cea4b86ab9771d153eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal_Scratched003.mat using Guid(f0cb5e039f11cea4b86ab9771d153eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a06a766309e0fe9a1f3fb6a93306def') in 0.022777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal_Scratched002.mat
+  artifactKey: Guid(471f8e04b6f28f34fbbb3b5b9d3d7244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Materials/Seamless/Metal/Metal_Scratched002.mat using Guid(471f8e04b6f28f34fbbb3b5b9d3d7244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1357f28540900e40e6d7eb3b0eea8a0') in 0.014361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
