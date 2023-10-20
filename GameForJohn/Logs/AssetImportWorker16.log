@@ -15,7 +15,7 @@ C:/Users/User/Documents/GitHub/ca-piotrWarkocki2003/ca-piotrWarkocki2003/GameFor
 -logFile
 Logs/AssetImportWorker16.log
 -srvPort
-56485
+52604
 Successfully changed project path to: C:/Users/User/Documents/GitHub/ca-piotrWarkocki2003/ca-piotrWarkocki2003/GameForJohn
 C:/Users/User/Documents/GitHub/ca-piotrWarkocki2003/ca-piotrWarkocki2003/GameForJohn
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ C:/Users/User/Documents/GitHub/ca-piotrWarkocki2003/ca-piotrWarkocki2003/GameFor
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12996] Host "[IP] 172.17.122.58 [Port] 0 [Flags] 2 [Guid] 4185083824 [EditorId] 4185083824 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13328] Host "[IP] 172.19.99.173 [Port] 0 [Flags] 2 [Guid] 3163292994 [EditorId] 3163292994 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12996] Host "[IP] 172.17.122.58 [Port] 0 [Flags] 2 [Guid] 4185083824 [EditorId] 4185083824 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13328] Host "[IP] 172.19.99.173 [Port] 0 [Flags] 2 [Guid] 3163292994 [EditorId] 3163292994 [Version] 1048832 [Id] WindowsEditor(7,Piotr-Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 29.08 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.69 ms.
+Refreshing native plugins compatible for Editor in 34.31 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.74 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Documents/GitHub/ca-piotrWarkocki2003/ca-piotrWarkocki2003/GameForJohn/Assets
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006705 seconds.
-- Loaded All Assemblies, in  0.339 seconds
+Registered in 0.011293 seconds.
+- Loaded All Assemblies, in  0.432 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 582ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.337 seconds
+Domain Reload Profiling: 765ms
+	BeginReloadAssembly (111ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
+	RebuildCommonClasses (53ms)
 	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (54ms)
-	LoadAllAssembliesAndSetupDomain (129ms)
-		LoadAssemblies (98ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (108ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (128ms)
-			TypeCache.Refresh (126ms)
-				TypeCache.ScanAssembly (112ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+	FinalizeReload (337ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (190ms)
+		SetupLoadedEditorAssemblies (259ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (11ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (44ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,8 +115,8 @@ Domain Reload Profiling: 582ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.679 seconds
-Refreshing native plugins compatible for Editor in 13.46 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.746 seconds
+Refreshing native plugins compatible for Editor in 14.08 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -147,47 +147,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.760 seconds
-Domain Reload Profiling: 1435ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.876 seconds
+Domain Reload Profiling: 1619ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (420ms)
-		LoadAssemblies (298ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (521ms)
+		LoadAssemblies (332ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (209ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (154ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
+		AnalyzeDomain (264ms)
+			TypeCache.Refresh (232ms)
+				TypeCache.ScanAssembly (212ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (761ms)
+	FinalizeReload (876ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (605ms)
+		SetupLoadedEditorAssemblies (624ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (463ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (10ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 16.84 ms, found 12 plugins.
-Preloading 1 native plugins for Editor in 0.15 ms.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 19.95 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 Unloading 4694 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5182.
-Memory consumption went from 158.1 MB to 158.0 MB.
-Total: 5.252300 ms (FindLiveObjects: 0.505100 ms CreateObjectMapping: 0.510200 ms MarkObjects: 4.042600 ms  DeleteObjects: 0.193500 ms)
+Unloading 76 unused Assets / (75.1 KB). Loaded Objects now: 5183.
+Memory consumption went from 158.1 MB to 158.1 MB.
+Total: 4.101800 ms (FindLiveObjects: 0.322800 ms CreateObjectMapping: 0.311800 ms MarkObjects: 3.351900 ms  DeleteObjects: 0.114600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -204,20 +204,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 3798.823219 seconds.
-  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle 05.mat
-  artifactKey: Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface/Glass Wine Bottle 05.mat using Guid(faedf01a9e7977749a7798016f508081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e811bd1f1bbc69f2a7687763deb79e') in 0.296508 seconds
+  Time since last request: 69563.564709 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models/Canvas_nat_01-04.fbx
+  artifactKey: Guid(f62947abd10e69a4b9bd64bf53b01107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models/Canvas_nat_01-04.fbx using Guid(f62947abd10e69a4b9bd64bf53b01107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3dc3cce2cbfa8828ffb53a99de86cc') in 0.211053 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 14
 ========================================================================
 Received Import Request.
-  Time since last request: 6.546629 seconds.
-  path: Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Thick Material.mat
-  artifactKey: Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/VRTemplateAssets/Fonts/Inter/Inter-Regular SDF Overlay Outline Thick Material.mat using Guid(c44e025c6bec3624a9f624e28b7d925b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7f7f3d93b16b22864454a3ab80cbfb') in 0.016670 seconds
+  Time since last request: 1.041382 seconds.
+  path: Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx
+  artifactKey: Guid(080ad8ef2223242198a30df487d9bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VRTemplateAssets/Models/Primitives/Sphere.fbx using Guid(080ad8ef2223242198a30df487d9bcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bb9db64e4b9d2ad1d8e2b58e0216eb') in 0.022291 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.250830 seconds.
+  path: Assets/HDRPFurniturePack/Taper_Candle_Holders/Models/Taper_Candle_Holders.fbx
+  artifactKey: Guid(71abf9071e1652b4f882aa617741725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Taper_Candle_Holders/Models/Taper_Candle_Holders.fbx using Guid(71abf9071e1652b4f882aa617741725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d0ce02b200431a51b8e4cdfa656a79') in 0.037970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.378322 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeSpatula02.fbx
+  artifactKey: Guid(a247d2de4e8ff417bb4477b110339452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeSpatula02.fbx using Guid(a247d2de4e8ff417bb4477b110339452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3cd7fcdb553a76a3e18fac8ff483d9') in 0.065068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 2.370373 seconds.
+  path: Assets/Furniture_FREE/Meshes/box_001.fbx
+  artifactKey: Guid(c6ee65a17262c4b4595ed6f80b6a2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/box_001.fbx using Guid(c6ee65a17262c4b4595ed6f80b6a2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fa99c756fbf2c33042f4491264f2c7') in 0.018840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 4.021465 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreePotSmall.fbx
+  artifactKey: Guid(3e4f1f36d48bc48bf9375ae3198a0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreePotSmall.fbx using Guid(3e4f1f36d48bc48bf9375ae3198a0f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df65e6b9d67b17e0cd1871c3c74ea33') in 0.052955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 4.472514 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx
+  artifactKey: Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits/Build Kit Exterior_03.fbx using Guid(39d59b6b89252814494c963f97ed892f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d3118477f20a2205c6c00a5ee7943a') in 0.059151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 6.430282 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_Standard.fbx
+  artifactKey: Guid(ae7c0043bb400254391ae61fac76ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_Standard.fbx using Guid(ae7c0043bb400254391ae61fac76ed21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc2742c4673fdf63c49a76c96b285301') in 0.043429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.147131 seconds.
+  path: Assets/HDRPFurniturePack/Decorative_Throw_Pillows/Models/Decorative_Throw_Pillow.fbx
+  artifactKey: Guid(18e8f2e1faf424e45b447fbb9f657077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HDRPFurniturePack/Decorative_Throw_Pillows/Models/Decorative_Throw_Pillow.fbx using Guid(18e8f2e1faf424e45b447fbb9f657077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ef363487292c9f92cfe54cb252a723') in 0.021500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Furniture_FREE/Meshes/dish_001.fbx
+  artifactKey: Guid(c35be5ac0e6fada40bc4de937c91e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/dish_001.fbx using Guid(c35be5ac0e6fada40bc4de937c91e58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27c34d8e6ee539fddd844550f2b55cc2') in 0.020875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Furniture_FREE/Meshes/dish_002.fbx
+  artifactKey: Guid(9155746b8dbe508448f226cc595153ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture_FREE/Meshes/dish_002.fbx using Guid(9155746b8dbe508448f226cc595153ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d060dca27172bbb48fcdcac4bce1ca5') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_2.fbx
+  artifactKey: Guid(614553dec7c62284bbe763ef664d7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ATLAS/Customizable Kitchen Pack/Models/Counter_3Drawer_2.fbx using Guid(614553dec7c62284bbe763ef664d7546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b5895220dc67065516623a07893fa7') in 0.090679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.097669 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeBowl02.fbx
+  artifactKey: Guid(63a684205bd934635bea35ff3f82fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeBowl02.fbx using Guid(63a684205bd934635bea35ff3f82fbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa25c6b6477af759c2982dbda476367') in 0.034051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeCabinet03_DrawerBig.fbx
+  artifactKey: Guid(d1c98a9ae66fa4a35818bf0bdc74e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeCabinet03_DrawerBig.fbx using Guid(d1c98a9ae66fa4a35818bf0bdc74e7eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687b9207f134d38fe4e64d8a1728bcb7') in 0.052507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.157841 seconds.
+  path: Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeTable.fbx
+  artifactKey: Guid(9040cbe13a7804fc488052de53602ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Package04_Free_Kitchen/FreeKitchen/Models/FreeTable.fbx using Guid(9040cbe13a7804fc488052de53602ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15421d340f2193a373c740c3fb419bc4') in 0.034208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
