@@ -23,37 +23,37 @@ public class openDoor : MonoBehaviour
 
     public GameObject doorOutside;
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
 
-        if (collision.collider.tag == "15A")
+        if (other.GetComponent<Collider>().tag == "15A")
         {
             doorBedroom15A.SetActive(false);
             key15A.SetActive(false);
         }
 
-        if (collision.collider.tag == "15B")
+        if (other.GetComponent<Collider>().tag == "15B")
         {
             doorBedroom15B.SetActive(false);
             key15B.SetActive(false);
         }
 
 
-        if (collision.collider.tag == "storageDoor")
+        if (other.GetComponent<Collider>().tag == "storageDoor")
         {
             doorStorageRoom.SetActive(false);
             keyStorage.SetActive(false);
         }
 
-        if (collision.collider.tag == "livingRoomDoor")
+        if (other.GetComponent<Collider>().tag == "livingRoomDoor")
         {
-            doorStorageRoom.SetActive(false);
+            doorLivingRoom.SetActive(false);
             keyLivingRoom.SetActive(false);
         }
 
-        if (collision.collider.tag == "boilerDoor")
+        if (other.GetComponent<Collider>().tag == "boilerDoor")
         {
-            doorStorageRoom.SetActive(false);
+            doorBoilerRoom.SetActive(false);
             keyBoilerRoom.SetActive(false);
         }
 
