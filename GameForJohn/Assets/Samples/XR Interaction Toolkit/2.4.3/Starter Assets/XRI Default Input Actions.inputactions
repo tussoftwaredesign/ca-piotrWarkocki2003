@@ -223,6 +223,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "UI switcher Button",
+                    "type": "Button",
+                    "id": "f68cdbd8-458f-48e6-a13f-dea1f392939e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -610,6 +619,17 @@
                     "action": "Pinch",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1fd9e30d-4ca6-46e2-aecc-c2d60fb49ee5",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI switcher Button",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -787,6 +807,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "UI switcher Button",
+                    "type": "Button",
+                    "id": "885a3add-3dc5-49ba-8149-7bd72106be91",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -1161,6 +1190,17 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Pinch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "555fbd92-245c-4c8f-8d02-d761f6c1a8f7",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UI switcher Button",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
