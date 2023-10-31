@@ -1,50 +1,55 @@
 Report-part 1 for my Virtual Reality Project:
 
 Initial Idea for the Game:
-        -My idea for the game consisted of designing my real life student accomodation in VR and having the player complete          various tasks before being able to leave the house again!
+        -My idea for the game consisted of designing my real life student accomodation in VR and having the player complete various tasks before being able to leave the house again!
+        I wanted to design my real life accomodation to test my designing skills and to see how close I can get to the original .
 
 Objectives in Game:
         -Tasks in game consist of finding keys to unlock new rooms.
         -Player needs to complete tasks and unlock each key to be able to escape/leave the apartment!
-        -Player needs to complete tasks in each room to unlock the key to the next room, for example put the dishes in the           sink to get key for the bedroom...  
+        -Player needs to complete tasks in each room to unlock the key to the next room, for example put the dishes in the sink to get key for the bedroom...
+        -Tasks will be different in each room to keep it interesting and not make it repetetive.
+        -
 
 Things implemented:
         -Grabbable objects such as keys are one of many objects the player can interact with.
         -I added a flashlight if the player wants to use it to help them traverse the Game.
         -Color coded keys to unlock certain doors, ie.Red key unlocks door with red handle...Gives player a clear path and 
          objective.
-        -Clue in the Boiler room that hints the player to check paintings in one of the bedrooms that will reveal a secret           code that the player then needs to figure out the use for.
+        -Clue in the Boiler room that hints the player to check paintings in one of the bedrooms. This code will reveal a secret code that the player then needs to figure out the use for.
         -The Painting has a code on it, another painting is a decoy that says "try again elsewhere!"
         - I already messed around with some user interface to let player know what is going on in my game.
+        -I have user interface in the bathroom(starting point of the game) which welcomes the player to the game.
         
 
 Further ideas to implement in future weeks:        
-        -As mentioned already, I want to get the tasks implemented such as the dishes as i didnt have time to do so 
-        this time around.
+        -As mentioned already, I want to get the tasks implemented such as the dishes as i didnt have time to do so this time around.
         -I will be adding more user interface to let the player seek help/instructions for each room.
-        -There will be a functioning TV (already is to a certain extend)that will allow player to interact with for certain          tasks.
-        -I will be adding Audio to the game(soft background music) to make the game appear less dull as it might get quite           boring without any sound.
+        -There will be a functioning TV (already is to a certain extend)that will allow player to interact with for certain tasks.
+        -I will be adding Audio to the game(soft background music) to make the game appear less dull as it might get quite boring without any sound.
         -I want to also add some sort of activation events for eg, turning TV ON/OFF with a remote control.
         -I will be adding LED lights to rooms to make the enviroment feel more vibrant and colorful.
         -I will be adding an area to place 3D numbers to sockets that, if placed in correct order, will open the front Door
-        - I also want to add my hamster into the game that would be controlled via Finite state Machine or Waypoint systems.
+        -I also want to add my hamster into the game that would be controlled via Finite state Machine or Waypoint systems.
         
         
 
 Struggles along the way:
         -I struggled with many things in the first half of this Assingment.
-        -XR RIG-- i found the Xr Rig to be very annoying to work with at times!... I had problems with phasing through               floors/walls and even items making me phase through floors when interacted with.
-        -If picked up , the key, for example it made my xr rig bug/jitter resulting in the game not being playable.I had to           add layers to both the key and the xr rig and in the Physics settings disable them being able to collide with one           another.That fixed that issue.
-        -I had a problem with implementing the keys opening the doors,I found that when the key collided with the correct           door it wouldnt open 100% of the time.I realised that changing the script from onCollisionEnter to OnTriggerEnter           fixed that issue for me personally.
-        -I also had to mess arounf with the height and width of the player as it was hard to find the right size to make            the house not look massive/tiny.
-        -I also struggled with the map design in itself, I found it hard to copy my real life apartment and make it look             the same in game!
-        -I messed around with lighting as i wanted to completely black out my boiler room to make the flashlight come in            handy for that part of the game. I wasnt able to implement that as I didnt have the knowledge of doing so and               tutorials online didnt seem to help either.
+        -XR RIG-- i found the Xr Rig to be very annoying to work with at times!... I had problems with phasing through floors/walls and even items making me phase through floors when interacted with.
+        -If picked up , the key, for example it made my xr rig bug/jitter resulting in the game not being playable.I had to add layers to both the key and the xr rig and in the Physics settings disable them being able to           collide with one another.That fixed that issue.
+        -I had a problem with implementing the keys opening the doors,I found that when the key collided with the correct door it wouldnt open 100% of the time.I realised that changing the script from onCollisionEnter to           OnTriggerEnter fixed that issue for me personally.
+        -I also had to mess arounf with the height and width of the player as it was hard to find the right size to make the house not look massive/tiny.
+        -I also struggled with the map design in itself, I found it hard to copy my real life apartment and make it look the same in game!
+        -I messed around with lighting as i wanted to completely black out my boiler room to make the flashlight come in handy for that part of the game. I wasnt able to implement that as I didnt have the knowledge of              doing so and tutorials online didnt seem to help either.
 
 Reflection:
         - I had a lot of fun designing and building the first half of my game.
         - I learned a lot along the way about creating unity projects for Virtual Reality!
-        -I realised that persistence and determnination was very important when creating anything in VR as VR may be a              little buggy sometimes.
-        -I will make sure to continue using my new knowledge when creating the rest of my project but also will put time            into learning new ways and new mechanics to further improve my skills and understandning of Virtual Reality development
+        -I realised that persistence and determnination was very important when creating anything in VR as VR may be a little buggy sometimes.
+        -I will make sure to continue using my new knowledge when creating the rest of my project but also will put time into learning new ways and new mechanics to further improve my skills and understandning of Virtual 
+        Reality development.
+        - I think I do need to put a bit more time between now and the end of the semester to implement the features i would like inside my game,I think I now have the knowledge and understadning for VR to continue                 improving my game.
 
 
 Screenshots: 
