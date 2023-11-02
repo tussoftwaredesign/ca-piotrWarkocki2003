@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class TeddiesForKey : MonoBehaviour
 {
-    public GameObject StorareRoomKey;
-    public int requiredTeddies = 5; // Number of cups required for key activation.
+    public GameObject StorageRoomKey;
+    public int requiredTeddies = 3; // Number of teddies required for key activation.
 
 
     private int teddiesInBed = 0;
@@ -13,19 +13,19 @@ public class TeddiesForKey : MonoBehaviour
 
     public void Start()
     {
-       StorareRoomKey.SetActive(false);
+       StorageRoomKey.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Teddy")) // Assuming the cups have a "Cup" tag.
+        if (other.CompareTag("Teddy")) // Assuming the teddies have a "Teddy" tag.
         {
             teddiesInBed++;
             Debug.Log("Teddy entered the bed. TotalTeddies on bed: " + teddiesInBed);
 
             if (teddiesInBed >= requiredTeddies)
             {
-                StorareRoomKey.SetActive(true);
+                StorageRoomKey.SetActive(true);
             }
         }
     }
@@ -39,7 +39,7 @@ public class TeddiesForKey : MonoBehaviour
 
             if (teddiesInBed < requiredTeddies)
             {
-                StorareRoomKey.SetActive(false);
+                StorageRoomKey.SetActive(false);
             }
         }
     }
