@@ -24,7 +24,7 @@ public class OpenMainDoor : MonoBehaviour
     {
         if (attach1Socket.activeSelf && attach2Socket.activeSelf && attach3Socket.activeSelf && attach4Socket.activeSelf)
         {
-            StartCoroutine(doorCoolDown(1f));
+            StartCoroutine(mainDoorCoolDown(1f));
         }
         else
         {
@@ -32,7 +32,7 @@ public class OpenMainDoor : MonoBehaviour
         }
     }
 
-    IEnumerator doorCoolDown(float waitTime)
+    IEnumerator mainDoorCoolDown(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
 

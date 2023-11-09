@@ -11,11 +11,8 @@ public class SocketChecker : MonoBehaviour
         SocketAttach.SetActive(false);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+ 
+    
 
     public void OnTriggerEnter(Collider obj)
     {
