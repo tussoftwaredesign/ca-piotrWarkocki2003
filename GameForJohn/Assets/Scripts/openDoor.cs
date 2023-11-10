@@ -46,46 +46,46 @@ public class openDoor : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        string tag = other.GetComponent<Collider>().tag;
 
-        if (other.GetComponent<Collider>().tag == "15A")
+        switch (tag)
         {
-            doorBedroom15A.SetActive(false);
-            key15A.SetActive(false);
+            case "15A":
+                doorBedroom15A.SetActive(false);
+                key15A.SetActive(false);
+                break;
+
+            case "15B":
+                doorBedroom15B.SetActive(false);
+                key15B.SetActive(false);
+                break;
+
+            case "storageDoor":
+                doorStorageRoom.SetActive(false);
+                keyStorage.SetActive(false);
+                break;
+
+            case "livingRoomDoor":
+                doorLivingRoom.SetActive(false);
+                keyLivingRoom.SetActive(false);
+                break;
+
+            case "boilerDoor":
+                doorBoilerRoom.SetActive(false);
+                keyBoilerRoom.SetActive(false);
+                CodeSocket1.SetActive(true);
+                CodeSocket2.SetActive(true);
+                CodeSocket3.SetActive(true);
+                CodeSocket4.SetActive(true);
+                Number1.SetActive(true);
+                Number2.SetActive(true);
+                Number3.SetActive(true);
+                Number4.SetActive(true);
+                break;
+
+            default:
+                // Handle other cases if needed
+                break;
         }
-
-        if (other.GetComponent<Collider>().tag == "15B")
-        {
-            doorBedroom15B.SetActive(false);
-            key15B.SetActive(false);
-        }
-
-
-        if (other.GetComponent<Collider>().tag == "storageDoor")
-        {
-            doorStorageRoom.SetActive(false);
-            keyStorage.SetActive(false);
-        }
-
-        if (other.GetComponent<Collider>().tag == "livingRoomDoor")
-        {
-            doorLivingRoom.SetActive(false);
-            keyLivingRoom.SetActive(false);
-        }
-
-        if (other.GetComponent<Collider>().tag == "boilerDoor")
-        {
-            doorBoilerRoom.SetActive(false);
-            keyBoilerRoom.SetActive(false);
-            CodeSocket1.SetActive(true);
-            CodeSocket2.SetActive(true);
-            CodeSocket3.SetActive(true);
-            CodeSocket4.SetActive(true);
-            Number1.SetActive(true);
-            Number2.SetActive(true);
-            Number3.SetActive(true);
-            Number4.SetActive(true);
-        }
-
-
     }
 }
