@@ -108,7 +108,8 @@ public class PlayVideo : MonoBehaviour
         else
             Play();
     }
-
+    
+  
     public void SetPlay(bool value)
     {
         if (value)

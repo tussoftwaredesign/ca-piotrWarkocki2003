@@ -25,6 +25,7 @@ public class OpenMainDoor : MonoBehaviour
         if (attach1Socket.activeSelf && attach2Socket.activeSelf && attach3Socket.activeSelf && attach4Socket.activeSelf)
         {
             StartCoroutine(mainDoorCoolDown(1f));
+            Debug.Log("Attach active ");
         }
         else
         {
