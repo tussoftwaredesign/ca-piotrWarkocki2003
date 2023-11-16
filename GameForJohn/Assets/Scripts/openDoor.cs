@@ -21,11 +21,11 @@ public class openDoor : MonoBehaviour
     public GameObject doorBoilerRoom;
     public GameObject keyBoilerRoom;
 
-    public GameObject CodeSocket1;
-    public GameObject CodeSocket2;
-    public GameObject CodeSocket3;
-    public GameObject CodeSocket4;
 
+    public MeshRenderer socket1;
+    public MeshRenderer socket2;
+    public MeshRenderer socket3;
+    public MeshRenderer socket4;
     public GameObject Number1;
     public GameObject Number2;
     public GameObject Number3;
@@ -34,10 +34,10 @@ public class openDoor : MonoBehaviour
     public void Start()
     {
 
-        CodeSocket1.SetActive(false);
-        CodeSocket2.SetActive(false);
-        CodeSocket3.SetActive(false);
-        CodeSocket4.SetActive(false);
+        socket1.enabled = false;
+        socket2.enabled = false;
+        socket3.enabled = false;
+        socket4.enabled = false;
         Number1.SetActive(false);
         Number2.SetActive(false);
         Number3.SetActive(false);
@@ -73,10 +73,11 @@ public class openDoor : MonoBehaviour
             case "boilerDoor":
                 doorBoilerRoom.SetActive(false);
                 keyBoilerRoom.SetActive(false);
-                CodeSocket1.SetActive(true);
-                CodeSocket2.SetActive(true);
-                CodeSocket3.SetActive(true);
-                CodeSocket4.SetActive(true);
+                
+                socket1.enabled = true;
+                socket2.enabled = true;
+                socket3.enabled = true;
+                socket4.enabled = true;
                 Number1.SetActive(true);
                 Number2.SetActive(true);
                 Number3.SetActive(true);
