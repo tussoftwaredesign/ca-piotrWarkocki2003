@@ -30,6 +30,7 @@ public class openDoor : MonoBehaviour
     public GameObject Number2;
     public GameObject Number3;
     public GameObject Number4;
+    public GameObject ui;
 
     public void Start()
     {
@@ -42,6 +43,7 @@ public class openDoor : MonoBehaviour
         Number2.SetActive(false);
         Number3.SetActive(false);
         Number4.SetActive(false);
+        ui.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -82,6 +84,7 @@ public class openDoor : MonoBehaviour
                 Number2.SetActive(true);
                 Number3.SetActive(true);
                 Number4.SetActive(true);
+                ui.SetActive(true);
                 break;
 
             default:
