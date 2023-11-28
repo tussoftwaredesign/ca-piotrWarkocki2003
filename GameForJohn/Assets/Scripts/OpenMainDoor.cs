@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OpenMainDoor : MonoBehaviour
 {
+    public TimeController timeController;
+
     public GameObject door;
 
     public GameObject attach1Socket;
@@ -38,5 +40,7 @@ public class OpenMainDoor : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
 
         door.SetActive(false);
+
+        timeController.StopTime();
     }
 }
