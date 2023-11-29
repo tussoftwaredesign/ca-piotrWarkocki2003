@@ -6,18 +6,17 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class dishesForKey : MonoBehaviour
 {
     public GameObject Bedroom15AKey;
-    
     public int requiredCups = 5; // Number of cups required for key activation.
-
-
     private int cupsInSink = 0;
 
+    // Add an AudioSource variable
+    
 
-    public void Start()
+    private void Start()
     {
         Bedroom15AKey.SetActive(false);
-        
 
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -26,11 +25,13 @@ public class dishesForKey : MonoBehaviour
         {
             cupsInSink++;
             Debug.Log("Cup entered the sink. Total cups in sink: " + cupsInSink);
+            
+
+            
 
             if (cupsInSink >= requiredCups)
             {
                 Bedroom15AKey.SetActive(true);
-                
             }
         }
     }
@@ -45,7 +46,6 @@ public class dishesForKey : MonoBehaviour
             if (cupsInSink < requiredCups)
             {
                 Bedroom15AKey.SetActive(false);
-                
             }
         }
     }
