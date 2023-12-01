@@ -1,7 +1,9 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//Script attached to all grabbable objects in game...
+/*Respawns grabbables to their original starting position if
+ objects fall out of the map and hit the RespawnCollider*/
 
 public class ItemRespawn : MonoBehaviour
 {
@@ -16,7 +18,7 @@ public class ItemRespawn : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        // Check if the object has collided with a collider (you can customize this condition)
+        // Checks if the object has collided with a collider 
         if (other.CompareTag("RespawnCollider"))
         {
             // Respawn the object at its initial position
@@ -30,7 +32,7 @@ public class ItemRespawn : MonoBehaviour
         // Set the object's position to the initial position
         transform.position = initialPosition;
 
-        // You can also reset other properties like velocity, rotation, etc., if needed
+        //resets velocity and rotation 
         if (GetComponent<Rigidbody>() != null)
         {
             GetComponent<Rigidbody>().velocity = Vector3.zero;

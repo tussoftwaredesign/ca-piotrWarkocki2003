@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 
+//script used to update the time attached to Game Over UI
 public class TimeController : MonoBehaviour
 {
     public TextMeshProUGUI timeText; // Reference to the TextMeshProUGUI component

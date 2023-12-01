@@ -1,37 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//script used for roomba to go around the kitchen using waypoints
 public class roombaController : MonoBehaviour
 {
-    
+    //set the speed of the roomba to 1
     public float speed = 1.0f;
-    
 
+    //store an array of game objects 
     public GameObject[] pattern;
+    //keeps track of the current index within the pattern array
     private int patternIndex = 0;
 
-    
-
-    
-
-    public void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
+        //calls Patrol class
         Patrol();
     }
 
-
-
-
-        void Patrol()
+    void Patrol()
     {
-        // Debug.Log("Currently patrolling");
         // Process the current instruction in our control data array
         GameObject waypoint = pattern[patternIndex];
 
@@ -41,7 +29,6 @@ public class roombaController : MonoBehaviour
         // Draw this vector at the position of the enemy
         Debug.DrawRay(transform.position, rangeToClose, Color.cyan);
 
-        // What's our distance to the waypoint?
         float distance = rangeToClose.magnitude;
 
         // How far do we move each frame
@@ -66,7 +53,7 @@ public class roombaController : MonoBehaviour
             rangeToClose = waypoint.transform.position - transform.position;
         }
 
-        // In what direction is our waypoint?
+        
         Vector3 normalizedRangeToClose = rangeToClose.normalized;
 
         // Draw this vector at the position of the waypoint

@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 using UnityEngine.XR.Interaction.Toolkit;
+//script used to open doors in the game
 public class openDoor : MonoBehaviour
 {
-
+    //public game objects for each key and its corresponding bedroom Door
     public GameObject doorBedroom15A;
     public GameObject key15A;
 
@@ -21,7 +21,7 @@ public class openDoor : MonoBehaviour
     public GameObject doorBoilerRoom;
     public GameObject keyBoilerRoom;
 
-
+    //socket meshrenders for main door lock code
     public MeshRenderer socket1;
     public MeshRenderer socket2;
     public MeshRenderer socket3;
@@ -34,7 +34,7 @@ public class openDoor : MonoBehaviour
 
     public void Start()
     {
-
+        //start game with sockets set to false
         socket1.enabled = false;
         socket2.enabled = false;
         socket3.enabled = false;
@@ -49,7 +49,8 @@ public class openDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         string tag = other.GetComponent<Collider>().tag;
-
+        /*if correct key is triggered with the correct door 
+         then set both active states to off(open door)*/
         switch (tag)
         {
             case "15A":
@@ -71,7 +72,8 @@ public class openDoor : MonoBehaviour
                 doorLivingRoom.SetActive(false);
                 keyLivingRoom.SetActive(false);
                 break;
-
+                /*when boiler room key opens the boiler room then it also 
+                enables the sockets and UI to to tell player what to do with codes*/
             case "boilerDoor":
                 doorBoilerRoom.SetActive(false);
                 keyBoilerRoom.SetActive(false);
