@@ -57,26 +57,26 @@ Reflection:
 
 
 Screenshots: 
-        -FirstKey In the Level:
+        
 
-![First Key](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/9ad311d1-1cca-4cb8-8e0a-a680bbff0b2d)
--Dishes:  
-![Dishes](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/c82c6773-e983-4739-bbf6-a7e962b744c4)
-        -FlashLight:
-![FlashLight](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/fffba7f4-6d05-44a7-962b-c04f00b8b147)
-        -FrontDoor/Exit:
-![FrontDoor-EndPoint](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/cea28891-cea0-4f81-9f6d-26121966baf6)
-        -Color Coded Doors:
-![ColorCodedDoors](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/d3df6e7e-06e8-48c3-a889-5b700a0fa4d7)
-        -Hint:
-![Hint](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/2a4e755d-83c7-481c-859e-1dd245dd961a)
-        -Painting with code:
-![PaintingWithCode](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/241c8fe8-24d6-4e37-8b5c-82ec98432f3c)
-![Code](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/7589ed25-4cec-435f-909f-a43ec122ddff)
-        -TV:
-![TV and Key](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/ce150212-dfd7-43f9-af52-7fe8e52db209)
-        -User Interface:
-![UserInterface](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/7d42d7c1-f337-453c-a798-158cbd8cdaf4)
+-FirstKey In the Level: ![First Key](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/9ad311d1-1cca-4cb8-8e0a-a680bbff0b2d)
+
+-Dishes: ![Dishes](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/c82c6773-e983-4739-bbf6-a7e962b744c4)
+        
+-FlashLight: ![FlashLight](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/fffba7f4-6d05-44a7-962b-c04f00b8b147)
+        
+-FrontDoor/Exit: ![FrontDoor-EndPoint](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/cea28891-cea0-4f81-9f6d-26121966baf6)
+       
+ -Color Coded Doors: ![ColorCodedDoors](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/d3df6e7e-06e8-48c3-a889-5b700a0fa4d7)
+        
+-Hint: ![Hint](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/2a4e755d-83c7-481c-859e-1dd245dd961a)
+       
+ -Painting with code: ![PaintingWithCode](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/241c8fe8-24d6-4e37-8b5c-82ec98432f3c)
+ -Code: ![Code](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/7589ed25-4cec-435f-909f-a43ec122ddff)
+       
+ -TV: ![TV and Key](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/ce150212-dfd7-43f9-af52-7fe8e52db209)
+       
+ -User Interface: ![UserInterface](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/7d42d7c1-f337-453c-a798-158cbd8cdaf4)
 
 
 Part 2:
@@ -133,19 +133,77 @@ Struggles along the way:
 IK-               -I struggled with the Inverse Kinematic 3D Model a few times, for example, having the legs look like they are moving with the direction of the player.
                   -I tried to make it more realistic and finally got to a point I was happy at and decided to leave it at that.
 
+Lighting-         -I struggled implementing the lights to a point where it only lit up certain rooms, I tried various combinations of light intensity and light ranges to 
+                   fix the lighting problem.
+                   -I also tried to implement a day/night cycle into my game using animations on the Directional light game object but that didnt work quite how I wanted
+                   it to so I scrapped that idea.
 
-
-    
 
 If I had more time:
 Extra Rooms-      -I would definitely add more rooms to my game( Expand it out into the hallway of the apartment complex). I feel like I limited myself a lot with what I
-                   decided to do for my game. Building my apartment meant I only had so much I could add in considering the space I provided myself with.
+                   decided to do for my game. Building my apartment meant I only had so much I could add in, considering the space I provided myself with.
                    Therefore I would definitely add more space with extra challenges and little Easter Eggs.
+
 Reflection:
+                  -Overall, Im very happy with what I managed to create and complete in my game. I learned a lot through out the last few months and I feel like I have a very 
+                   good understanding of how VR works now
+                  -My problem-solving skills definitely improved along with my creativity throughout the creation of my VR game.
+                  -There were moments I wanted to scrap an idea as I was struggling implementing it but I decided to give my self another chance and seek help online via
+                   tutorials.(This also thought me a lot as it helped me understand and remember certain things more).
+                   
 Screenshots: 
 
-Whole Map:
-![WholeMap](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/27559aa6-19b0-4391-9045-fc3d683768ae)
+
+Whole Map: ![WholeMap](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/27559aa6-19b0-4391-9045-fc3d683768ae)
+
+Inverse Kinematic: ![InverseKinematic](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/bd244ac7-82b6-40a7-8ffa-2d3bef072563)
+
+Roomba: ![Roomba](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/98f929e2-8585-494c-89ba-34b1ce660053)
+
+Cups in Sink: ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/58be432c-f58d-4b52-bddd-8fd0a4907e42)
+
+Shrek Shrine + Radio ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/c7a95fe7-b7ff-4d07-acea-4b84e2bc7b62)
+
+Escape Timer: ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/587617f1-b9bf-4b60-898a-7dbebd2bed58)
+
+Functional Toilet : ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/81cbbd43-0cc8-4c47-9f3b-d5e58fd58f2a)
+
+Teddys : ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/e8af0467-6f11-400f-9563-51c84f0a9d70)
+
+Working Lights: ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/c1883360-0e7d-45c6-9078-1cc425199ee4)
+
+NavMeshAgent Hamster: ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/2c31992a-452b-4533-b26b-5fcc18cc88d6)
+
+TV: ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/8d49d3a5-8a4c-4b1e-b962-9ea8c42738f3)
+
+EASTER EGGs: 
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/84ff2b2b-4f9a-43e3-aa12-4568e9f155ee)
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/6d33820a-cac5-4716-9e8d-e212ae47939c)
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/6d0eeec0-e47f-4119-99d3-e476add063cd)
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/50efd9b6-bdeb-48a6-9a68-f4d23d7c0053)
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/752a07b3-e58e-4439-904e-961dcedf4806)
+             ![image](https://github.com/tussoftwaredesign/ca-piotrWarkocki2003/assets/146718291/4b85ad81-fa0e-434a-b0b0-73b6ca68a653)
+             
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
 
